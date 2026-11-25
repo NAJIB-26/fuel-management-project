@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: "Tajawal", "Segoe UI", sans-serif; background-color: #F5F7FA; }
+.btn-primary { @apply px-4 py-2 rounded-md text-sm font-medium bg-primary text-white hover:bg-primary-dark; }
+.btn-outline { @apply px-4 py-2 rounded-md text-sm font-medium border border-gray-300 text-gray-700 hover:bg-gray-100; }
+.input { @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary; }
+.card { @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4; }
